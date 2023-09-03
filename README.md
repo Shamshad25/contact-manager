@@ -1,4 +1,4 @@
-# Contact Manager
+# Contact Manager And Covid Detail
 
 This project was built with React with TypeScript and Redux as State Management.
 
@@ -20,11 +20,24 @@ This is a contact management app to add and view contact details with Chart show
 
 This app is made with ReactJS, TypeScript, with Redux for state management and. For Line Chart Rechart is used with react.
 
+On the chart you can get the details of all the Covid cases with markers that indicates the country name, total number
+of active, recovered cases and deaths in that particular country as a popup.
+
+## Project link
+the project have been uploaded and live you can click here and go to the live app and explore its working  (https://contact-manage01.netlify.app/)
+
+
+
 ## Table of Content
 
 - ReactJS with TypeScript
 - Redux
 - Rechart
+
+## Maintained by
+# SHAMSHAD ALAM
+
+There is room for more improvement which will be done with coming days to better the performance and user interaction. 
 
 
 
