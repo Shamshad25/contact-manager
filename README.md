@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Contact Manager And Covid Detail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built with React with TypeScript and Redux as State Management. The app is fully responsive to all kind of device used.
 
 ## Available Scripts
 
@@ -14,33 +14,31 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a contact management app to add and view contact details with Chart showing the details of Covid 19 with detailed graph. The app is built with the mindset of user attractiveness and clean UI that would make it look and feel good while using it.
 
-### `npm run build`
+This app is made with ReactJS, TypeScript, with Redux for state management and. For Line Chart Rechart is used with react.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the chart you can get the details of all the Covid cases with markers that indicates the country name, total number
+of active, recovered cases and deaths in that particular country as a popup.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project link
+the project have been uploaded and live you can click here and go to the live app and explore its working  (https://contact-manage01.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Table of Content
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS with TypeScript
+- Redux
+- Rechart
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Maintained by
+# SHAMSHAD ALAM
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+There is room for more improvement which will be done with coming days to better the performance and user interaction. 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
