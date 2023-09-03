@@ -1,6 +1,6 @@
 # Contact Manager And Covid Detail
 
-This project was built with React with TypeScript and Redux as State Management.
+This project was built with React with TypeScript and Redux as State Management. The app is fully responsive to all kind of device used.
 
 ## Available Scripts
 
