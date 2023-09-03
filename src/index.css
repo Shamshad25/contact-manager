@@ -1,0 +1,42 @@
+:root {
+  --blue: #5333ed;
+  --darkblue: #4b49ac;
+  --simpleblue: #98bdff;
+  --skyblue: #2cd4d9;
+  --lightblue: #a0deeb;
+  --purple: #d0bdf4;
+  --grey: #6e7076;
+  --darkgrey: #494d5f;
+  --white: #e5eaf5;
+  --greywhite: #e5e5e5
+  --black: #000;
+  --red: #f3797e;
+  --darkred: #dc143c;
+  --green: #7cdf91;
+  --darkgreen: #00c9a7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

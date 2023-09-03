@@ -1,0 +1,410 @@
+/*CONTACT PAGE */
+
+.conatct-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--greywhite);
+}
+
+.header {
+  max-width: 100%;
+  background-color: var(--darkblue);
+  color: var(--white);
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+  padding-left: 40px;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: var(--simpleblue);
+}
+
+.sidebar .btn {
+  text-decoration: none;
+  background-color: var(--blue);
+  padding: 10px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: var(--white);
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.sidebar .btn:hover {
+  background-color: var(--darkblue);
+}
+
+.content-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 8;
+}
+
+.table-box {
+  width: 50%;
+  min-height: 20vh;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #f2f2f2;
+}
+
+.table-box table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+table td,
+table th {
+  border: 1px solid var(--grey);
+  padding: 8px;
+  cursor: pointer;
+}
+
+table tr:hover {
+  background-color: #f2f2f2;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--grey);
+  color: white;
+}
+
+.btn-box {
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.create-btn {
+  text-decoration: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.create-btn:hover {
+  background-color: var(--darkblue);
+}
+
+table h3 {
+  width: 100%;
+  text-align: center;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  border: none;
+}
+
+.delete-btn .edit:hover {
+  color: var(--darkgreen);
+  cursor: pointer;
+}
+
+.delete-btn .delete:hover {
+  color: var(--darkred);
+  cursor: pointer;
+}
+.delete {
+  border: none;
+  background: none;
+  color: var(--red);
+}
+
+.edit {
+  color: var(--green);
+}
+
+.view {
+  color: var(--darkblue);
+  cursor: pointer;
+}
+
+/* CREATE CONTACT PAGE */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-box label {
+  width: 20%;
+}
+
+.input-box input {
+  width: 80%;
+  padding: 8px;
+}
+
+.select-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-box .select-head {
+  width: 20%;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.submit-btn {
+  text-decoration: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: var(--darkblue);
+}
+
+.table-box h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--grey);
+  color: #fff;
+}
+
+/* VIEW PAGE */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--lightblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--darkgrey);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* CHART AND MAPS */
+
+.sidebar-chart {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--simpleblue);
+}
+
+.sidebar-chart .btn {
+  text-decoration: none;
+  background-color: var(--blue);
+  padding: 10px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: var(--white);
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.sidebar-chart .btn:hover {
+  background-color: var(--darkblue);
+}
+
+.chart-content {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-box {
+  width: 80%;
+  margin: 0;
+  margin-top: 40px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-box h1 {
+  color: var(--darkgrey);
+}
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* Extra small devices */
+
+@media only screen and (max-width: 600px) {
+  /* FORM  */
+  .main-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-box {
+    width: 90%;
+  }
+
+  .create-btn {
+    padding: 5px;
+    font-size: medium;
+  }
+
+  /* CHARTS AND MAPS */
+  .sidebar-chart {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart-content {
+    /* width: 100% !important; */
+    height: 90vh;
+  }
+
+  .chart-box {
+    width: 90% !important;
+  }
+
+  .chart-box h1 {
+    font-size: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-body {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .table-box {
+    width: 80%;
+  }
+
+  .sidebar-chart {
+    width: 30%;
+  }
+
+  .chart-box {
+    width: 75%;
+  }
+}
+
+/* Large devices */
+@media only screen and (min-width: 768px) {
+  .main-body {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .table-box {
+    width: 80%;
+  }
+
+  .sidebar-chart {
+    width: 33%;
+  }
+
+  .chart-box {
+    width: 67%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-body {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 10%;
+  }
+
+  .table-box {
+    width: 60%;
+  }
+
+  .sidebar-chart {
+    width: 21.5%;
+  }
+
+  .chart-box {
+    width: 75%;
+  }
+}
