@@ -18,7 +18,7 @@ const Charts = () => {
   const cases = useAppSelector((state) => state.contact.cases);
   const dispatch = useAppDispatch();
   // const newDatas = cases.slice(0, 30);
-  // console.log("dadadaa", newDatas);
+  // console.log("dadadaa", cases);
 
   useEffect(() => {
     dispatch(fetchCases());
@@ -32,10 +32,10 @@ const Charts = () => {
 
       <div className="main-body">
         <div className="sidebar-chart">
-          <Link className="btn" to={"/"}>
+          <Link className="btn" to={"/contact"}>
             Contact
           </Link>
-          <Link className="btn" to="/charts">
+          <Link className="btn" to="/">
             Charts and Maps
           </Link>
         </div>

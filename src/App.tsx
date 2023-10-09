@@ -9,11 +9,11 @@ import ViewContact from "./components/ViewContact";
 function App() {
   return (
     <Routes>
-      <Route path="/" index element={<Contact />} />
-      <Route path="/charts" element={<Charts />} />
+      <Route path="/" index element={<Charts />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/createContact" element={<CreateContact />} />
-      <Route path="/editContact/:id" element={<EditContact />} />
-      <Route path="/viewContact/:id" element={<ViewContact />} />
+      <Route path="/contact/editContact/:id" element={<EditContact />} />
+      <Route path="/contact/viewContact/:id" element={<ViewContact />} />
     </Routes>
   );
 }

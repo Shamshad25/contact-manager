@@ -16,10 +16,10 @@ const ViewContact = () => {
 
       <div className="main-body">
         <div className="sidebar">
-          <Link className="btn" to="/">
+          <Link className="btn" to="/contact">
             Contact Page
           </Link>
-          <Link className="btn" to="/charts">
+          <Link className="btn" to="/">
             Charts and Maps
           </Link>
         </div>
